@@ -1,0 +1,152 @@
+.cardCaseContainer{
+  width: 745px;
+  height: 353px;
+  background: radial-gradient(at center top, rgb(188, 203, 140), transparent), radial-gradient(at center bottom, rgb(248, 123, 16), transparent);
+  display: grid;
+  grid-template-columns: 173px 1fr 80px 30px;
+  grid-template-rows: 30px 33px 110px 1fr;
+  grid-template-areas:
+    'square title title cross'
+    'square title title .'
+    'square comment mirror mirror'
+    'alg alg alg alg'
+  }
+.cardCaseSquarePicContainer{
+  grid-area: square;
+  margin: auto auto;
+}
+.cardCaseTitleContainer{
+   grid-area: title;
+}
+
+.cardCancelCross{
+  grid-area: cross;
+  box-sizing:border-box;
+  width:30px;
+  height:30px;
+  background: -webkit-linear-gradient(-45deg, transparent 0%, transparent 46%, black 46%,  black 56%,transparent 56%, transparent 100%), -webkit-linear-gradient(45deg, transparent 0%, transparent 46%, black 46%,  black 56%,transparent 56%, transparent 100%);
+  border-width:1px;
+  border-style: solid;
+  border-color:white;
+}
+.cardCancelCross:hover{
+  cursor:pointer;
+}
+.cardMirrorCaseContainer{
+  grid-area: mirror;
+  margin: auto auto;
+  border-top: 1px solid #df976a;
+  display:flex;
+  flex-flow: column nowrap;
+  width:100%;
+  justify-conten: center;
+}
+.cardMirrorCaseContainer:hover{
+  cursor:pointer;
+}
+.cardCaseCommentaryContainer{
+  border-left: 4px solid #df976a;
+  border-top: 1px solid #df976a;
+  grid-area: comment;    
+}
+.cardCaseAlgorythmContainer{
+  background: linear-gradient(to right, rgb(130, 220, 232), rgb(240, 147, 71), rgb(253, 138, 255));
+  grid-area: alg;
+  box-shadow: inset 1px 1px 45px 0px #b965eb  ;
+}
+
+h3{
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 63px;
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 2px 2px 3px gray;
+  letter-spacing: 8px;  
+}
+h4{
+  margin: auto auto;
+  font-size: 15px;
+  text-align: center;
+  text-shadow: 1px 1px 2px #FF6200;
+  
+}
+h5{
+  margin: 5px;
+  line-height: 25px;
+  font-size: 15px;
+ }
+.h3{
+  margin: 0;
+  text-transform: uppercase;
+  line-height: 173px;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 7px gray;
+  letter-spacing: 1px;  
+}
+
+.cardCaseExample{
+	width: 80px;
+	height: 80px;
+	border: none;
+	display: grid;
+	grid-template-columns: 8px 21px 21px 21px 8px;
+	grid-template-rows: 8px 21px 21px 21px 8px;
+	justify-content: center;
+	align-items: center;
+	transform: scale(1.2);
+  margin: 6px auto;
+}
+.mainCase{
+  transform: scale(2.1);
+}
+.mirrorCase{
+  
+}
+.square{
+	height: 21px;
+	width: 21px;
+	border: 0.5px solid black;
+	box-sizing: border-box;
+}
+.yellowSquare{
+	background: #DDD24A;
+}
+.greySquare{
+	background: grey;
+}
+.blueSquare{
+	background: #2C5AAE;
+}
+.greenSquare{
+	background: #47B730;
+}
+.redSquare{
+	background: #FF4E4E;
+}
+.orangeSquare{
+	background: #E78731;
+}
+.BottomSquare{
+	margin: 0 auto;
+	height: 8px;
+	width: 21px;
+}
+.dash{
+	background: #DDD24A;
+	margin: 0 auto;
+	box-shadow: 0.5px 0.5px 1.5px black;
+	box-sizing: border-box;
+}
+.horizontalDash{
+	height: 3px;
+	width: 21px;
+}
+.verticalDash{
+	height: 21px;
+	width: 3px;
+}
+.emptyCell{
+	width: 0px;
+}

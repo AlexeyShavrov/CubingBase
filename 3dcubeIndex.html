@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>3D-cube</title>
+	<link rel="stylesheet" type="text/css" href="3dcube.css">
+</head>
+<body>
+	<div class="box">
+		<div class="container">
+			<button class="action">action</button>		
+			<div class="cube">
+				<div class="left side">
+					<div class="sticker" id="square1">1</div>
+					<div class="sticker" id="square2">2</div>
+					<div class="sticker" id="square3">3</div>
+					<div class="sticker" id="square4">4</div>
+					<div class="sticker" id="square5">5-left</div>
+					<div class="sticker" id="square6">6</div>
+					<div class="sticker" id="square7">7</div>
+					<div class="sticker" id="square8">8</div>
+					<div class="sticker" id="square9">9</div>
+				</div>
+				<div class="right side">
+					<div class="sticker" id="square10">10</div>
+					<div class="sticker" id="square11">11</div>
+					<div class="sticker" id="square12">12</div>
+					<div class="sticker" id="square13">13</div>
+					<div class="sticker" id="square14">14-right</div>
+					<div class="sticker" id="square15">15</div>
+					<div class="sticker" id="square16">16</div>
+					<div class="sticker" id="square17">17</div>
+					<div class="sticker" id="square18">18</div>
+				</div>
+				<div class="top side">
+					<div class="sticker" id="square19">19</div>
+					<div class="sticker" id="square20">20</div>
+					<div class="sticker" id="square21">21</div>
+					<div class="sticker" id="square22">22</div>
+					<div class="sticker" id="square23">23-top</div>
+					<div class="sticker" id="square24">24</div>
+					<div class="sticker" id="square25">25</div>
+					<div class="sticker" id="square26">26</div>
+					<div class="sticker" id="square27">27</div>
+				</div>
+				<div class="bottom side">
+					<div class="sticker" id="square28">28</div>
+					<div class="sticker" id="square29">29</div>
+					<div class="sticker" id="square30">30</div>
+					<div class="sticker" id="square31">31</div>
+					<div class="sticker" id="square32">32-bottom</div>
+					<div class="sticker" id="square33">33</div>
+					<div class="sticker" id="square34">34</div>
+					<div class="sticker" id="square35">35</div>
+					<div class="sticker" id="square36">36</div>
+				</div>
+				<div class="front side">
+					<div class="sticker" id="square37">37</div>
+					<div class="sticker" id="square38">38</div>
+					<div class="sticker" id="square39">39</div>
+					<div class="sticker" id="square40">40</div>
+					<div class="sticker" id="square41">41-front</div>
+					<div class="sticker" id="square42">42</div>
+					<div class="sticker" id="square43">43</div>
+					<div class="sticker" id="square44">44</div>
+					<div class="sticker" id="square45">45</div>
+				</div>
+				<div class="back side">
+					<div class="sticker" id="square46">46</div>
+					<div class="sticker" id="square47">47</div>
+					<div class="sticker" id="square48">48</div>
+					<div class="sticker" id="square49">49</div>
+					<div class="sticker" id="square50">50-back</div>
+					<div class="sticker" id="square51">51</div>
+					<div class="sticker" id="square52">52</div>
+					<div class="sticker" id="square53">53</div>
+					<div class="sticker" id="square54">54</div>
+				</div>
+				<div class="side inner innerSideVerticalLeft">
+					<div class="innerSticker" id="inner1">1</div>
+					<div class="innerSticker" id="inner2">2</div>
+					<div class="innerSticker" id="inner3">3</div>
+					<div class="innerSticker" id="inner4">4</div>
+					<div class="innerSticker" id="inner5">5</div>
+					<div class="innerSticker" id="inner6">6</div>
+					<div class="innerSticker" id="inner7">7</div>
+					<div class="innerSticker" id="inner8">8</div>
+					<div class="innerSticker" id="inner9">9</div>
+				</div>
+				<div class="side inner innerSideVerticalRight">
+					<div class="innerSticker" id="inner10">10</div>
+					<div class="innerSticker" id="inner11">11</div>
+					<div class="innerSticker" id="inner12">12</div>
+					<div class="innerSticker" id="inner13">13</div>
+					<div class="innerSticker" id="inner14">14</div>
+					<div class="innerSticker" id="inner15">15</div>
+					<div class="innerSticker" id="inner16">16</div>
+					<div class="innerSticker" id="inner17">17</div>
+					<div class="innerSticker" id="inner18">18</div>
+				</div>
+				<div class="side inner innerSideVerticalFront">
+					<div class="innerSticker" id="inner19">19</div>
+					<div class="innerSticker" id="inner20">20</div>
+					<div class="innerSticker" id="inner21">21</div>
+					<div class="innerSticker" id="inner22">22</div>
+					<div class="innerSticker" id="inner23">23</div>
+					<div class="innerSticker" id="inner24">24</div>
+					<div class="innerSticker" id="inner25">25</div>
+					<div class="innerSticker" id="inner26">26</div>
+					<div class="innerSticker" id="inner27">27</div>
+				</div>
+				<div class="side inner innerSideVerticalBack">
+					<div class="innerSticker" id="inner28">28</div>
+					<div class="innerSticker" id="inner29">29</div>
+					<div class="innerSticker" id="inner30">30</div>
+					<div class="innerSticker" id="inner31">31</div>
+					<div class="innerSticker" id="inner32">32</div>
+					<div class="innerSticker" id="inner33">33</div>
+					<div class="innerSticker" id="inner34">34</div>
+					<div class="innerSticker" id="inner35">35</div>
+					<div class="innerSticker" id="inner36">36</div>
+				</div>
+				<div class="side inner innerSideHorizontalTop">
+					<div class="innerSticker" id="inner37">37</div>
+					<div class="innerSticker" id="inner38">38</div>
+					<div class="innerSticker" id="inner39">39</div>
+					<div class="innerSticker" id="inner40">40</div>
+					<div class="innerSticker" id="inner41">41</div>
+					<div class="innerSticker" id="inner42">42</div>
+					<div class="innerSticker" id="inner43">43</div>
+					<div class="innerSticker" id="inner44">44</div>
+					<div class="innerSticker" id="inner45">45</div>
+				</div>
+				<div class="side inner innerSideHorizontalBottom">
+					<div class="innerSticker" id="inner46">46</div>
+					<div class="innerSticker" id="inner47">47</div>
+					<div class="innerSticker" id="inner48">48</div>
+					<div class="innerSticker" id="inner49">49</div>
+					<div class="innerSticker" id="inner50">50</div>
+					<div class="innerSticker" id="inner51">51</div>
+					<div class="innerSticker" id="inner52">52</div>
+					<div class="innerSticker" id="inner53">53</div>
+					<div class="innerSticker" id="inner54">54</div>
+				</div>
+	</div>
+</div>
+</div>
+<script type="text/javascript" src="3dcube.js"></script>
+</body>
+</html>
